@@ -1,0 +1,155 @@
+body {
+    background-image: url(/img/joseph-pearson-jxgJUpL-SQg-unsplash-min.png);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.about {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    height: 30px;
+    width: 150px;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+a:-webkit-any-link {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-family: SF Pro Display;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.sign {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+
+}
+
+.rectangle {
+    display: flex;
+    height: 1px;
+    left: 240px;
+    top: 101px;
+    background: #E7E7F2;
+    opacity: 0.4;
+    /* Background Blur */
+    backdrop-filter: blur(60px);
+    /* Note: backdrop-filter has minimal browser support */
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+
+.head {
+
+    margin-top: 209px;
+    margin-left: 220px;
+    width: 45rem;
+
+}
+
+h1 {
+
+    font-family: SF Pro Display;
+    font-size: 96px;
+    line-height: 97%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 45rem;
+}
+
+.text {
+    font-family: SF Pro Text;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
+    color: #FFFFFF;
+    width: 32rem;
+    margin-left: -1rem;
+}
+
+.mid_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.midpicture {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30rem;
+    margin-top: 15rem;
+    background-image: url(img/Rectangle.png);
+    width: 570px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(70px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px 0px 0px 16px;
+}
+
+.up_text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.vector {
+    opacity: 0.5;
+    Width: 43px;
+    Height: 14px;
+}
+
+.up_text p {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.up_text h4 {
+font-family: SF Pro Text;
+font-size: 36px;
+line-height: 135%;
+/* or 49px */
+color: #FFFFFF;
+width: 185px;
+
+
+
+}
